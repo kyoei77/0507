@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <input type="button" onclick="action()">
+
+    <script>
+        
+
+        //「こんにちは」を出力してます。メソッド
+        // document.write("こんばんは！");
+
+        //背景色　プロパティ
+        // document.bgColor="blue";
+
+        //アラートの表示
+        // alert("警告です。");
+
+        //コンソール出力
+        // console.log("こんにちは。")
+
+        //変数
+        // var a = ("Hello World");
+        // document.write(a);
+        // console.log(a);
+        // document.write("<br>");
+
+        //データ型
+        // document.write(typeof a);
+
+        // //配列
+        // var a = ["おはよう","こんにちは","こんばんは"]
+        // document.write(a[0]);
+        // document.write(a[1]);
+
+        // //配列の要素数
+        // document.write(a.length);
+
+
+
+        //文字列の連結
+        // var name = ("喬睿")
+        // var a = ("こんにちは" + name + "さん")
+        // document.write(a);
+        // document.write("<br>")
+
+        //if文
+        // var a = 1;
+        // if (a > 2) {
+        //     document.write("aは2より大きい");
+        // } else {
+        //     document.write("aは2より小さい");
+        // }
+
+        //else if文
+        // var a = -3;
+        // if (a < 0) {
+        //     document.write("aの値は負です");
+        // } else if (a === 0) {
+        //     document.write("aの値はゼロです");
+        // } else if (a > 0) {
+        //     document.write("aの値は正です");
+        // } else {
+        //     document.write("aは数値ではありません");
+        // }
+
+        // //論理演算子
+        // if ((5 > 2) && (3 < 7)) {
+        //     document.write("TRUE");
+        // } else {
+        //     document.write("FALSE");
+        // }
+
+        //ループ
+        // for (var i = 0; i < 3; i++) {
+        //     document.write(i);
+        // }
+        // document.write("<br>");
+
+        // for(var i = 3;i < 7;i++){
+        //     document.write(i);
+        // }
+
+        // var a = [11,22,33];
+        // for(var i = 0;i < 3;i++){
+        //     document.write(a[i]);
+        // }
+        // document.write("<br>");
+
+        //下るように
+        // var a = [3,2,1,0]
+        // for(var i = a.length - 1;i >= 0;i--){
+        //     document.write(a[i])
+        // }
+
+        //小数点以下を切り捨て
+        // var f1 = Math.floor(10.4);
+        // console.log(f1);
+     
+        function action(){
+            document.write("クリックされました");
+            document.bgColor="blue";
+        }
+        // action()
+        
+        function rect(width,height){
+            var ans = width * height;
+            console.log(ans);
+        }
+        rect(16,25);
+        rect(20,300);
+
+    </script>
+
+</body>
+
+</html>
